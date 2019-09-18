@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>223356418198-l412q0ilpmgda8t15sku8f85ag14fs0o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.223356418198-l412q0ilpmgda8t15sku8f85ag14fs0o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCFMsA8jbnqp8zAjcHYCmoAyTKZOpYwKWs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>223356418198</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.myFirstFlutterApp20190915</string>
+	<key>PROJECT_ID</key>
+	<string>trackomad</string>
+	<key>STORAGE_BUCKET</key>
+	<string>trackomad.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:223356418198:ios:56d23de23dced82e5deab7</string>
+	<key>DATABASE_URL</key>
+	<string>https://trackomad.firebaseio.com</string>
+</dict>
+</plist>
