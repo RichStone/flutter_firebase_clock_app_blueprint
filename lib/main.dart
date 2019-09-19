@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'colored_background_icon.dart';
 import 'clock_widget.dart';
+import 'settings_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -38,7 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
           IconButton(
             icon: Icon(Icons.account_balance),
             onPressed: () {
-              _select(1);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SecondRoute()),
+              );
             },
           )
         ],
