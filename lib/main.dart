@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'colored_background_icon.dart';
-import 'clock_widget.dart';
+import 'tracker.dart';
 import 'settings_page.dart';
 
 void main() => runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'FlutterFireBlueprint',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: MyHomePage(title: 'FlutterFireBlueprint'),
     );
@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 final List<Widget> widgets = [
-  ClockWidget(),
+  Tracker(),
   ColoredBackgroundIcon(color: Colors.deepOrange, icon: Icons.ac_unit),
   ColoredBackgroundIcon(color: Colors.deepPurple, icon: Icons.access_time),
 ];
